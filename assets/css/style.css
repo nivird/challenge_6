@@ -4,6 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+   
   }
   
   .container {
@@ -49,14 +50,17 @@ body {
   
   #weather-info {
     margin-bottom: 20px;
+   
   }
   
   #weather-info h2 {
     margin-bottom: 10px;
+   
   }
   
   #weather-info p {
     margin: 5px 0;
+     
   }
   
   #search-history {
