@@ -1,0 +1,88 @@
+/* assets/css/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Added background color */
+    color: #333; /* Changed default text color */
+  }
+  
+  .container {
+    max-width: 1200px; /* Increased container width */
+    margin: 0 auto;
+    padding: 20px;
+    display: flex; /* Use flexbox for layout */
+  }
+  
+  h1 {
+    text-align: left; /* Align heading to the left */
+    margin-bottom: 20px;
+    color: #007bff; /* Changed heading color */
+  }
+  
+  form {
+    margin-right: 20px; /* Add margin to the right for spacing */
+  }
+  
+  #search-form {
+    display: flex; /* Use flexbox for form elements */
+    align-items: center; /* Center align form elements vertically */
+  }
+  
+  label {
+    font-weight: bold;
+    margin-right: 10px; /* Add margin to the right of label for spacing */
+  }
+  
+  input[type="text"] {
+    width: 200px; /* Reduced input width */
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #weather-info {
+    flex: 1; /* Expand weather info section to fill remaining space */
+    padding-left: 20px; /* Add padding to the left for spacing */
+  }
+  
+  #search-history {
+    border-left: 1px solid #ccc; /* Add border to separate search history */
+    padding-left: 20px; /* Add padding to the left for spacing */
+  }
+  
+  #search-history h2 {
+    margin-bottom: 10px;
+    color: #007bff; /* Changed heading color */
+  }
+  
+  #history-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #history-list li {
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  #history-list li:hover {
+    text-decoration: underline;
+  }
+  
